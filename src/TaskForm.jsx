@@ -13,7 +13,7 @@ function TaskForm({ addTask, setShowForm }) {
 
   return (
     <div className="ml-4 border-b-4 border-gray-200 py-4">
-    <h1 className="text-xl font-bold">Create a todo</h1>
+    <h1 className="text-xl font-bold mb-2">Create a todo</h1>
     <form onSubmit={handleSubmit} className="flex max-w-lg space-y-2 flex-col ">
       <input
         type="text"

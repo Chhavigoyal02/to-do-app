@@ -11,7 +11,7 @@ function TaskList({ tasks, toggleTaskDone, title }) {
               type="checkbox"
               checked={task.done}
               onChange={() => toggleTaskDone(index)}
-              className="accent-yellow-500 h-5 w-4"
+              className="accent-yellow-500 h-5 w-4 "
             />
             <span className={task.done ? ' text-gray-500' : ''}>
               {task.text}
