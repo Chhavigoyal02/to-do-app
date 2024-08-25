@@ -5,7 +5,6 @@ import './index.css';
 import TodoApp from './TodoApp.jsx';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div >
